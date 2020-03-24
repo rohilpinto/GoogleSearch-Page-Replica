@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Background-primary-clr: #E2E2E2;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Assistant", sans-serif;
+}
+
+.main-page-bg {
+  background: var(--Background-primary-clr);
+
+  height: 100vh;
+}
+
+.search-main-container {
+  display: flex;
+
+  align-items: center;
+
+  height: 100%;
+}
+
+.text-logo {
+  position: relative;
+
+  top: -80px;
+  left: 0;
+
+  text-align: center;
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.search-box-outer {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.search-box {
+	
+  margin-left: -148px;
+  background: rgb(255, 255, 255);
+  width: 548px;
+  position: relative;
+  padding: 25px;
+  text-align: center;
+  border-radius: 50px;
+	border-radius: 0px 200px 200px 200px;
+	transition-property: box-shadow;
+	transition-duration: .3s;
+}
+.search-box:hover {
+	box-shadow: -4px 20px 20px -30px rgba(0,0,0,1);
+}
+.search-text {
+  margin: 0 0 0 -30px;
+  border: none;
+  padding: 0;
+  background: none;
+  /* background: black; */
+  width: 95%;
+  position: relative;
+  z-index: 3;
+  outline: none;
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+
+.search-icon {
+}
+.search-icon-outer {
+  z-index: 2;
+  position: absolute;
+  top: 25px;
+  left: -19px;
+  text-align: right;
+
+  width: 100%;
+}
+
+.footer-area {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  font-size: 1.2rem;
+
+  color: #1b1b1b;
+  display: flex;
+  padding: 20px;
+}
+
+.footer-text {
+  font-weight: normal;
+}
+
+.footer-area .about {
+  margin-right: 10px;
+}
