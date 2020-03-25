@@ -16,7 +16,7 @@ body {
 }
 
 .main-page-bg {
-  background: var(--Background-primary-clr);
+  background: var(--Background-primary-clr),  #A6EDB5;
 
   height: 100vh;
 }
@@ -64,6 +64,16 @@ body {
   transition-property: box-shadow;
   transition-duration: 0.3s;
 }
+
+
+@media (max-width: 500px) {
+  .search-box {
+    width: 95%;
+  }
+}
+
+
+
 .search-box:hover {
   box-shadow: -4px 20px 20px -30px rgba(0, 0, 0, 1);
 }
@@ -82,6 +92,8 @@ body {
   transition: 0.5s;
    
 }
+
+
 
 .search-text::placeholder {
   font-weight: lighter;
@@ -129,4 +141,12 @@ body {
 
 .privacy {
   margin-right: 10px;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 500px) {
+
 }
