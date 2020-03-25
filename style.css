@@ -7,7 +7,7 @@
 }
 
 :root {
-  --Background-primary-clr:  rgb(130, 247, 155);
+  --Background-primary-clr: linear-gradient(121.71deg, #A6EDB5 0.36%, #B0FF8B 104.4%);
   font-size: 16px;
 }
 
