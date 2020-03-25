@@ -1,0 +1,109 @@
+/* * {
+	border: 1px solid #000;
+} */
+.results-search {
+  display: flex;
+
+  height: 200px;
+  width: 100%;
+}
+.results-box-outer {
+  justify-content: center;
+
+  margin-left: -460px;
+}
+.text-logo-results {
+  position: relative;
+  top: 0;
+  left: -170px;
+
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.search-box {
+  border-radius: 0px 200px 200px 0px;
+}
+.search-options {
+  background-color: ;
+}
+.option-container {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: -50px;
+  left: 230px;
+  width: 600px;
+}
+
+.option {
+  margin-right: 20px;
+}
+
+.option:hover {
+  text-decoration: underline solid rgb(44, 44, 44);
+}
+
+/* search results  */
+
+.search-results {
+  font-size: 1.2rem;
+  /* border: 1px solid #000; */
+  width: 570px;
+  margin-left: 220px;
+  line-height: 1.4;
+}
+
+.search-results a {
+  text-decoration: none;
+}
+
+.search-results h5 {
+  font-weight: normal;
+}
+
+.tag-container {
+  display: flex;
+  font-size: 1rem;
+}
+
+.tag-container ul {
+  list-style: none;
+  display: flex;
+}
+
+.search-tags li {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.search-tags li::before {
+  /* add a dot */
+}
+
+/* cards */
+
+.video-result-card {
+  background: rgb(104, 58, 58);
+  padding: 20px;
+  width: 600px;
+  margin-top: 20px;
+  margin-left: 220px;
+  height: 350px;
+  display: flex;
+}
+
+.card {
+  position: relative;
+  margin-right: 5px;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+  padding: 10px;
+
+  background: white url("https://source.unsplash.com/user/erondu/500x150") no-repeat top center;
+}
+
+.link-container {
+  margin-top: 160px;
+}
