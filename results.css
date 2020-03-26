@@ -2,7 +2,7 @@
   /* border: 1px solid #000; */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1372px) {
   html,
   body {
     min-width:1630px;
@@ -175,8 +175,9 @@ a:hover {
 
 .sidebar-result-box {
   width: auto;
-  max-width: 400px;
-
+  max-width: 500px;
+  min-width: 386px;
+  max-height: 200px;
    
   background: #e5ffe4;
   position: absolute;
@@ -191,7 +192,8 @@ a:hover {
 
 .sidebar-result-box .title {
   font-size: 1.3rem;
-  line-height: 2;
+  /* line-height: auto; */
+  
 }
 
 .sidebar-result-box .title::after {
@@ -201,6 +203,7 @@ a:hover {
   height: 1px;
   display: block;
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .sidebar-result-box .description {
