@@ -11,9 +11,15 @@
   font-size: 16px;
 }
 
+
 body {
   
   font-family: "Assistant", sans-serif;
+}
+@media (max-width: 390px){
+  body {
+    min-width: 300px;
+  }
 }
 
 .main-page-bg {
