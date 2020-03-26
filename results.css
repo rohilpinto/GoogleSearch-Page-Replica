@@ -2,9 +2,7 @@
   /* border: 1px solid #000; */
 }
 
-body {
-  min-width: 1920px;
-}
+ 
 a {
   text-decoration: none;
 }
@@ -15,14 +13,21 @@ a:hover {
 
 .results-search {
   display: flex;
-
+  
   height: 200px;
   width: 100%;
+  
+   
 }
 .results-box-outer {
-  justify-content: center;
-
-  margin-left: -780px;
+  width: 1000px;
+  position: absolute;
+   
+  
+   
+  
+ 
+  /* margin-left: -780px; */
 }
 .text-logo-results {
   position: relative;
