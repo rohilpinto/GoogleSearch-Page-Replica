@@ -1,6 +1,18 @@
-/* * {
-	border: 1px solid #000;
-} */
+* {
+  /* border: 1px solid #000; */
+}
+
+body {
+  min-width: 1920px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline solid;
+}
+
 .results-search {
   display: flex;
 
@@ -10,7 +22,7 @@
 .results-box-outer {
   justify-content: center;
 
-  margin-left: -460px;
+  margin-left: -780px;
 }
 .text-logo-results {
   position: relative;
@@ -84,26 +96,98 @@
 /* cards */
 
 .video-result-card {
-  background: rgb(104, 58, 58);
+  /* background: rgb(104, 58, 58); */
   padding: 20px;
   width: 600px;
-  margin-top: 20px;
-  margin-left: 220px;
+  margin-top: -16px;
+  margin-left: 199px;
   height: 350px;
   display: flex;
+  position: relative;
+}
+.results-video-title-container {
+  margin-top: 20px;
+  margin-left: 220px;
+  font-size: 1.1rem;
 }
 
+.results-video-title-container a {
+  position: relative;
+  top: 5px;
+}
 .card {
   position: relative;
   margin-right: 5px;
   width: 200px;
   height: 300px;
-  border-radius: 20px;
+  border-radius: 9px;
   padding: 10px;
 
   background: white url("https://source.unsplash.com/user/erondu/500x150") no-repeat top center;
 }
 
+.card::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: inherit;
+  visibility: hidden;
+  height: 150px;
+
+  transition-duration: 0.3s;
+}
+
+.card:hover::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: inherit;
+  visibility: visible;
+  height: 150px;
+  background: rgb(75, 75, 75);
+  opacity: 0.5;
+}
+
 .link-container {
-  margin-top: 160px;
+  margin-top: 150px;
+}
+
+/* sideBar-results-box */
+
+.sidebar-result-box {
+  width: 500px;
+  height: 200px;
+  background: #e5ffe4;
+  position: absolute;
+  top: 200px;
+  left: 850px;
+
+  border-radius: 10px;
+
+  font-size: 1rem;
+  padding: 30px;
+}
+
+.sidebar-result-box .title {
+  font-size: 1.3rem;
+  line-height: 2;
+}
+
+.sidebar-result-box .title::after {
+  content: "";
+  background: rgb(170, 170, 170);
+  width: 100%;
+  height: 1px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sidebar-result-box .description {
+  margin-top: 5px;
 }

@@ -12,6 +12,7 @@
 }
 
 body {
+  
   font-family: "Assistant", sans-serif;
 }
 
@@ -103,9 +104,11 @@ body {
 .footer-area {
   position: absolute;
   bottom: 0;
-  width: 100vw;
+  left: 0;
+  width: 100%;
+  
   font-size: 1.1rem;
-  background-color: ;
+  /* background-color: ; */
   color: #0a0a0ab6;
   display: flex;
   padding: 20px;
